@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.actitime.tests.InvalidLogin">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.actitime.tests.InvalidLogin -->
+      <class name="com.actitime.tests.ValidLoginLogoutTest">
+        <methods>
+          <include name="testValidLoginLogout"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.actitime.tests.ValidLoginLogoutTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
